@@ -1,0 +1,53 @@
+.logo{
+    font-size: 50px;
+    margin-right: 400PX;
+}
+ul{
+    display: none;
+}
+.image{
+    width: 250px;
+    height: 300px;
+    border-radius: 0px 80px 0px 0px; 
+}
+.conta{
+    font-size: 20px;
+}
+.conta2{
+    font-size: 20px;
+}
+.cont{
+    margin-left: 25px;
+}
+.Carte{
+    display: grid;
+    grid-row-gap: 20px;
+    grid-template-columns: 250px 250px;
+}
+.Portfolio{
+    font-size: 30px;
+}
+.text{
+    font-size: 15px;
+}
+.image3{
+    width: 200px;
+    height: 300px;
+}
+.name{
+    font-size: 20px;
+}
+.text2{
+    font-size: 20px;
+}
+.me{
+    height: 300px;
+    width: 200px;
+    border-radius: 50px 0px 50px 0px;
+}
+.compe{
+    font-size: 30px;
+}
+.Compe{
+    font-size: 30px;
+}

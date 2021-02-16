@@ -1,0 +1,198 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background: #FAE0E7;
+}
+.container{
+    width: 90%;
+    margin: auto;
+    background-color: #FAE0E7;
+}
+.logo{
+    font-family: La Belle Aurore;
+    font-size: 70px;
+    color: #4C3D3D;
+}
+.conta {
+    font-size: 60px; 
+}
+.conta2{
+    font-size:55px;
+    font-family: SimSun-ExtB;
+    margin-top: 40px;
+}
+.boton{
+    width: 140px;
+    height:40px;
+    border-radius: 10px;
+    margin-top: 40px;
+    background: #A786DF;
+    color: #fffffe;
+}
+.Portfolio {
+    font-size: 82px;
+    color: #0E172C;
+    padding: 2%;
+}
+.image2{
+    width: 60px;
+    background: #D9D4E7;
+}
+.titre{
+    background: #D9D4E7;
+}
+.text{
+    padding-top: 20px;
+    font-size: 19px;
+    background: #D9D4E7;
+}
+.carte{
+    border: #707070 solid;
+    background-color: #D9D4E7;
+    padding: 30px;
+}
+.Carte{
+    display: grid;
+    height: 300px;
+    justify-content: space-around;
+    grid-template-columns: 300px 300px 300px;
+}
+.name{
+    font-size: 50px;
+    color: #A786DF;
+    background-color: #0E172C;
+}
+.text2{
+    font-size: 40px;
+    color: #E9EBF0;
+    background-color: #0E172C;
+}
+.me{
+    background-color: #0E172C;
+    text-align: center;
+    width: 800px;
+}
+.carteme{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+}
+.image3{
+    width: 250px;
+    height: 350px;
+}
+.compe{
+    color: #938F8F;
+    font-size: 40px;
+    line-height: 70px;
+}
+.Compe{
+    color: #938F8F;
+    font-size: 40px;
+    line-height: 70px;
+}
+.Compétences{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-around;    
+}
+.réseau{
+    width: 40px;
+}
+.sociaux{
+    color: #938F8F;
+}
+.form{
+    border-radius: 8px;
+    text-align: center;
+    height: 30px;
+    background: white;
+}
+.mesag{
+    border-radius: 8px;
+    width: 300px;
+    height: 60px;
+    margin-top: 30px;
+    text-align: center;
+    background: white;
+}
+.profil {
+    margin-left: 60px;
+    display: grid;
+}
+.menu2{
+    color: #707070;
+    font-size: 15px;
+}
+.réseau1{
+    width: 40px;
+    background-color: #B4A9A9;
+}
+.sociaux2{
+    margin-top: 120px;
+}
+.footer{
+    padding-left: 990px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;  
+}
+.nav ul{
+    font-weight: bold;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    align-items: center;
+}
+.nav ul a{
+    text-decoration: none;
+    color: black;
+}
+.nav ul a:hover{
+    background-color: rgb(145, 153, 148);
+}
+.heroSection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.heroSection img{
+    height: 65vh; 
+} 
+.boton2{
+    width: 140px;
+    height:40px;
+    border-radius: 10px;
+    margin-top: 20px;
+    background: #A786DF;
+    color: #fffffe;
+}
+.section5{
+    background: black;
+    margin-top: 2%;
+}
+.nav2 li{
+    list-style-type: none;
+   background: black;
+}
+.nav2{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    background: black;
+}
+.section4{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+@media screen and (max-width: 768px) {
+.nav{
+    display: grid;
+}
+.nav ul{
+    width: 160%;
+} 
+}
