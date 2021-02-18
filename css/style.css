@@ -3,6 +3,7 @@
     margin: 0px;
     box-sizing: border-box;
     background: #FAE0E7;
+    scroll-behavior: smooth;
 }
 .container{
     width: 90%;
@@ -18,7 +19,7 @@
     font-size: 60px; 
 }
 .conta2{
-    font-size:55px;
+    font-size:30px;
     font-family: SimSun-ExtB;
     margin-top: 40px;
 }
@@ -31,9 +32,9 @@
     color: #fffffe;
 }
 .Portfolio {
-    font-size: 82px;
+    font-size: 52px;
     color: #0E172C;
-    padding: 2%;
+    text-align: center;
 }
 .image2{
     width: 60px;
@@ -54,24 +55,17 @@
 }
 .Carte{
     display: grid;
-    height: 300px;
     justify-content: space-around;
-    grid-template-columns: 300px 300px 300px;
+    grid-template-columns: 25% 25% 25%;
 }
 .name{
     font-size: 50px;
     color: #A786DF;
-    background-color: #0E172C;
+    font-family: La Belle Aurore ;
 }
 .text2{
-    font-size: 40px;
-    color: #E9EBF0;
-    background-color: #0E172C;
-}
-.me{
-    background-color: #0E172C;
-    text-align: center;
-    width: 800px;
+    font-size: 30px;
+    font-family:  SimSun-ExtB;
 }
 .carteme{
     display: grid;
@@ -79,13 +73,8 @@
     justify-content: space-around;
 }
 .image3{
-    width: 250px;
-    height: 350px;
-}
-.compe{
-    color: #938F8F;
-    font-size: 40px;
-    line-height: 70px;
+    width: 300px;
+    height: 400px;
 }
 .Compe{
     color: #938F8F;
@@ -111,15 +100,15 @@
 }
 .mesag{
     border-radius: 8px;
-    width: 300px;
+    width: 335px;
     height: 60px;
     margin-top: 30px;
     text-align: center;
     background: white;
 }
 .profil {
-    margin-left: 60px;
     display: grid;
+    
 }
 .menu2{
     color: #707070;
@@ -129,15 +118,11 @@
     width: 40px;
     background-color: #B4A9A9;
 }
-.sociaux2{
-    margin-top: 120px;
-}
-.footer{
-    padding-left: 990px;
-}
+
 .nav{
     display: flex;
     justify-content: space-between;  
+
 }
 .nav ul{
     font-weight: bold;
@@ -146,21 +131,28 @@
     justify-content: space-between;
     width: 50%;
     align-items: center;
+    
 }
 .nav ul a{
+    
     text-decoration: none;
     color: black;
+    transition: all .7s ease-in-out;
+
 }
 .nav ul a:hover{
-    background-color: rgb(145, 153, 148);
+    background-color: rgb(114, 93, 102);
+    font-size: 20px;
+    color: white;
 }
 .heroSection{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 .heroSection img{
-    height: 65vh;
+    height: 50vh;
+    width: 50vh;
 } 
 .boton2{
     width: 140px;
@@ -170,32 +162,156 @@
     background: #A786DF;
     color: #fffffe;
 }
-.section5{
-    background: black;
+
+.section4{
+    display: grid;
+    grid-gap: 30%;
+    grid-template-columns: auto auto;
+}
+
+.footerone{
+    display: grid;
+    grid-template-columns: 5% 5% 5% 5% 40% 40%;
+    grid-template-rows: 40% 20% 20% 20% ;
     margin-top: 2%;
+    background-color: black;
 }
-.nav2 li{
-    list-style-type: none;
-   background: black;
+.logo2{
+    font-family: La Belle Aurore;
+    color: #4C3D3D;
+    font-size: 50px;
+    grid-column: 6/7;
+    grid-row: 1/2;
+    background-color: black;
 }
-.nav2{
+.footer {
+    grid-column: 6/7;
+    grid-row: 3/4;
+    background-color: black;
+    color: #B4A9A9;
+    font-size: 150%;
+}
+.footerone img{
+    grid-row: 3/4;
+    width: 30px;
+}
+.foR{
     display: flex;
-    justify-content: space-between;
-    width: 40%;
-    background: black;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+ @media screen and (max-width: 768px) {
+.logo{
+    font-size: 50px;
+}
+.nav{
+    text-align: center;
+}
+.nav ul{
+    width: 70%;
+} 
+.heroImage{
+    grid-row: 1/2;
+}
+.heroSection{
+    display: grid;
+}
+.Portfolio{
+    font-size: 190%;
+}
+.Carte{
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: 40% 40% ;
+    grid-gap: 30px;
+}
+.text2{
+    font-size: 120%;
+}
+.name{
+    font-size: 140%;
+}
+.image3{
+    width: 150px;
+    height: 250px;
+}
+.me{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.Compe{
+    font-size: 160%;
+    line-height: 190%;
+}
+.réseau{
+    width: 15%;
+}
+.profil a {
+    font-size: 75%;
+}
+.form{
+width: 35%;
+}
+.mesag{
+    width: 200px;
+    height: 40px;
+}
+.sociaux2 {
+    width: 5%;
+}
+
+} 
+@media screen and (max-width: 375px) {
+.heroSection{
+    display: grid;
+    justify-content: center;
+}
+.nav ul {
+    display: none;
+}
+.conta{
+    font-size: 200%;
+}
+.conta2{
+    font-size: 150%;
+}
+.Carte{
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: 80% ;
+    grid-gap: 50PX;
+}
+.text2{
+    font-size: 90%;
+}
+.name{
+    font-size: 100%;
+}
+.carteme{
+    display: grid;
+    grid-template-columns:60%;
+    grid-template-rows: 30% 30% 30%;
+}
+.me{
+    grid-row:3/4 ;
 }
 .section4{
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 60%;
+    grid-gap:1%;
+    justify-content: center;
 }
-@media screen and (max-width: 768px) {
-.nav{
-    display: grid;
+.footerone img{
+    width: 70%;
 }
-.nav ul{
-    width: 160%;
-} 
-.nav ul{
-    width: 160%;
-} 
+.footer{
+    font-size: 70%;
+}
+.logo2{
+    font-size: 180%;
+}
 }
